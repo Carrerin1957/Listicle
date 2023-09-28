@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Source-sans-pro";
+  src: url("/fonts/SourceSansPro-Regular.otf");
+}
+
+body {
+  color: black;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.img-custom {
+  height: 500px;
+  max-width: 100%;
+  display: block;
+}
+
+.div-imagen {
+  display: inline-block; /* Para que el contenedor se ajuste automáticamente al contenido */
+  position: relative; /* Permite posicionar elementos hijos relativos a este contenedor */
+}
+
+.texto-superpuesto {
+  position: absolute; /* Permite posicionar el texto de forma absoluta */
+  top: 50%; /* Alinea el texto en la mitad superior del contenedor */
+  left: 50%; /* Alinea el texto en el centro del contenedor */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Centra el texto vertical y horizontalmente */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.9
+  ); /* Fondo semi-transparente para el texto */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espacio alrededor del texto */
+  border-radius: 5px; /* Borde redondeado para el contenedor de texto */
+  font-size: 36px; /* Tamaño del texto */
+  font-family: "Roboto Slab", serif; /* Tipo de letra */
+  text-align: center; /* Alineación del texto */
+}
+
+.imagen-superpuesta {
+  position: absolute;
+  top: 99%; /* Alinea la imagen en la parte inferior */
+  left: 50%; /* Alinea la imagen en el centro del contenedor */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Centra el texto vertical y horizontalmente */
+  border: white 1px solid ;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.div-titulo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  font-family: Source-Sans-Pro, sans-serif;
+}
+
+hr {
+  width: 350px;
+  border: #e6e6e6 2px solid;
+}
+
+.div-body {
+  
+  width: 750px;
+  text-align: left;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: Source-Sans-Pro, sans-serif;
+    font-size: 18px;
+    color: #42b4d6;
+    line-height: 32px;
+}
+
+a:hover {
+    color: #42b4d6;
+    text-decoration: underline;
+}
+
+.subtitulo {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-style: bold;
+    color: rgb(51, 51, 51);
+    margin-bottom: 0;
+}
+
+.numero {
+    margin-right: 20px;
+    color: rgb(0, 0, 0, .25);
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-style: bold;
+}
+
+p {
+    font-family: Source-Sans-Pro, sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 32px;
+}
+
+.imagen-tema {
+    width: 100%;
+
+}
