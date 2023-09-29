@@ -13,12 +13,13 @@ body {
 
 .img-custom {
   height: 500px;
-  max-width: 100%;
-  display: block;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(/images/imagen-3.jpg)
 }
 
 .div-imagen {
-  display: inline-block; /* Para que el contenedor se ajuste automáticamente al contenido */
   position: relative; /* Permite posicionar elementos hijos relativos a este contenedor */
 }
 
